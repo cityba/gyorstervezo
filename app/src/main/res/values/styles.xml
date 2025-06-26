@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alapapp tétel, AppCompat Light NoActionBar bázison -->
+    <style name="Theme.Tervezo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- itt adhatsz meg saját attribútumokat, színeket stb. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+</resources>

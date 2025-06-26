@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Rajzfelület -->
+    <com.cityba.tervezo.FloorPlanView
+        android:id="@+id/floorPlanView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F0F0F0" />
+
+    <!-- Alsó menü (2 sor) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <!-- Első sor: eszközválasztók -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnMainWall"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🧱\nFőfal"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnPartition"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🧱\nVálaszfal"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnWindow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🪟\nAblak"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnDoor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🚪\nAjtó"
+                android:background="@drawable/button_selector"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Második sor: műveletgombok -->
+        <LinearLayout
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:fitsSystemWindows="true"
+            android:weightSum="3"
+            android:layout_marginBottom="20dp">  <!-- 20dp távolság alul -->
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🚧\nSzerkesztés"
+                android:background="@drawable/button_selector_gray"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🆕\nÚj terv"
+                android:background="@drawable/button_selector_gray"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnExport"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="📝\nExport"
+                android:background="@drawable/button_selector_gray"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
