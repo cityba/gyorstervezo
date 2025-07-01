@@ -35,7 +35,7 @@ Interaktív terv készítő Android alkalmazás gyors vázlatkészítéshez és 
 1. Klónozd a repót:
 
    ```bash
-   git clone https://github.com/USERNAME/REPO.git
+   git clone https://github.com/cityba/gyorstervezo.git
    cd REPO
    ```
 2. Apk telepítése:
