@@ -1,4 +1,4 @@
-TervezőApp
+# TervezőApp
 
 Ez az Android alkalmazás lehetővé teszi, hogy interaktív padlóterveket készíts gyorsan és egyszerűen. Rajzolj falakat, helyezz el ablakokat és ajtókat, majd exportáld terveidet kép- vagy FML-formátumban.
 
