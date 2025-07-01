@@ -95,8 +95,7 @@ Interactive plan maker Android app for quick sketching and professional presenta
 * [Features](#Features)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Benefits](#benefits)
-* [System Requirements](#system requirements)
+* [Benefits](#benefits) 
 * [Consent](#concession)
 * [License](#license)
 
