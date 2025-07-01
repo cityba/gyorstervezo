@@ -1,73 +1,85 @@
 # TervezőApp
 
-Ez az Android alkalmazás lehetővé teszi, hogy interaktív padlóterveket készíts gyorsan és egyszerűen. Rajzolj falakat, helyezz el ablakokat és ajtókat, majd exportáld terveidet kép- vagy FML-formátumban.
+[![Android API](https://img.shields.io/badge/API-21%2B-green)](https://developer.android.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Mire jó?
+Interaktív padlóterveket készítő Android alkalmazás gyors vázlatkészítéshez és szakmai előterjesztéshez.
 
-Gyors vázlatkészítés: Tervezd meg lakásod, irodád vagy bármilyen belső tér alaprajzát néhány koppintással.
+---
 
-Szakmai export: Mentsd el terveidet Floorplanner-kompatibilis FML-fájlban, hogy tovább szerkeszthesd más tervezőszoftverekben.
+## Tartalomjegyzék
 
-Képi megosztás: Exportáld padlótervedet JPEG-ként, és oszd meg ügyfelekkel vagy barátokkal.
+* [Funkciók](#funkciók)
+* [Telepítés](#telepítés)
+* [Használat](#használat)
+* [Előnyök](#előnyök)
+* [Rendszerkövetelmények](#rendszerkövetelmények)
+* [Hozzájárulás](#hozzájárulás)
+* [Licenc](#licenc)
 
-Főbb funkciók
+---
 
-Falrajzolás: 10 cm és 30 cm vastagságú falak gyors létrehozása rácshoz és meglévő falakhoz igazítva.
+## Funkciók
 
-Ablak és ajtó elhelyezése: Szabályozható méret, 5 cm-es rácsfontra pattintás, falra történő felcsatolás.
+* **Falrajzolás**: 10 cm és 30 cm vastagságú falak rácshoz igazítva.
+* **Ablak & Ajtó**: Méretbeállítás és falra pattintás egyszerűen.
+* **Szerkesztés mód**: Mozgatás, átméretezés, törlés érintéssel.
+* **Zoom & Pan**: Kétujjas pinch-zoom és drag.
+* **Mentés & Betöltés**: Automatikus munkamenet-mentés.
+* **Export**: JPEG és Floorplanner-kompatibilis FML formátum.
 
-Szerkesztés mód: Mozgasd, ívd át vagy töröld a falakat, nyílászárókat és sarokpontokat intuitív érintésvezérléssel.
+---
 
-Zoomezés és panorámázás: Kétujjas pinch-zoom és drag műveletek a részletgazdag tervezésért.
+## Telepítés
 
-Mentés és betöltés: A program automatikusan eltárolja a falakat és nyílászárókat, így újra megnyithatod a munkamenetet.
+1. Klónozd a repót:
 
-Használat
+   ```bash
+   git clone https://github.com/USERNAME/REPO.git
+   cd REPO
+   ```
+2. Apk telepítése:
 
-Telepítés: Töltsd le és telepítsd az app-debug.apk fájlt:
+   ```bash
+   adb install -r app-debug.apk
+   ```
 
-adb install -r app-debug.apk
+---
 
-Eszköz kiválasztása:
+## Használat
 
-Főfal (30 cm) és válaszfal (10 cm) rajzolása gombbal.
+1. **Válassz eszközt**: Főfal vagy válaszfal gomb.
+2. **Rajzolj**: Érintéssel indíts, húzd az ujjad a végpontig.
+3. **Szerkesztés**: Kapcsold be a szerkesztőmódot, érintsd meg az elemet.
+4. **Exportálás**: Export gomb → JPEG vagy FML → mentés a Képek/Dokumentumok mappába.
 
-Ablak- vagy ajtó ikon megnyomása a nyílászáró elhelyezéséhez.
+---
 
-Rajzolás:
+## Előnyök
 
-Érintéssel indítsd a fal vagy nyílászáró kezdőpontját.
+* **Gyors prototípus**: Percek alatt kész vázlat.
+* **Szakmai export**: Képi és FML formátum.
+* **Offline**: Internet nélkül is használható.
+* **Egyszerű UI**: Felhasználóbarát, minimális tanulási görbe.
 
-Húzd az ujjad az új pontos végpontig, a méretet a képernyő tetején látható cm/m címke mutatja.
+---
 
-Szerkesztés:
+## Rendszerkövetelmények
 
-Kapcsold be a Szerkesztés módot, majd érintsd meg a fal/nyílászáró közepét vagy sarkát a mozgatáshoz.
+* Android 5.0 (API 21) vagy újabb
+* Engedélyezett ismeretlen források
 
-Húzd, majd engedd el a törléshez a kukagyűjtő ikon fölé.
+---
 
-Exportálás:
+## Hozzájárulás
 
-Nyomd meg az Export gombot, válaszd a JPEG vagy FML formátumot.
+1. Forkold a repót 🚀
+2. Branch létrehozása: `git checkout -b feature/uj-feature`
+3. Commit: `git commit -m "Új feature hozzáadva"`
+4. Push & Pull Request
 
-Add meg a fájlnév előtagját, és a kész fájl a Dokumentumok vagy Képek mappába kerül.
+---
 
-Előnyök
+## Licenc
 
-Gyors prototípus: Villámgyors vázlatkészítés bonyolult CAD szoftver nélkül.
-
-Rugalmas export: Képként azonnal prezentálhatod, FML-ben folytathatod a tervezést.
-
-Offline használat: Internetkapcsolat nélkül is működik, minden adat helyben tárolódik.
-
-Egyszerű kezelőfelület: Minimalista dizájn, könnyen tanulható, gyorsan használható.
-
-Követelmények
-
-Android 5.0 (API 21) vagy újabb
-
-Engedélyezett ismeretlen források a telepítéshez
-
-Licenc
-
-MIT License – szabadon használható és módosítható.
+Ez a projekt **MIT License** alatt áll. Részletek a [LICENSE](LICENSE) fájlban.
