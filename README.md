@@ -50,7 +50,7 @@ Interaktív terv készítő Android alkalmazás gyors vázlatkészítéshez és 
 
 1. **Válassz eszközt**: Főfal vagy válaszfal gomb.
 2. **Rajzolj**: Érintéssel indíts, húzd az ujjad a végpontig.
-3. **Szerkesztés**: Kapcsold be a szerkesztőmódot, érintsd meg az elemet.
+3. **Szerkesztés**: Kapcsold be a szerkesztőmódot, érintsd meg az elemet, méretezheted, kidobhatod.
 4. **Exportálás**: Export gomb → JPEG vagy FML → mentés a Képek/Dokumentumok mappába.
 
 ---
@@ -83,3 +83,89 @@ Interaktív terv készítő Android alkalmazás gyors vázlatkészítéshez és 
 ## Licenc
 
 Ez a projekt **MIT License** alatt áll. Részletek a [LICENSE](LICENSE) fájlban.
+
+# PlannerApp
+
+[![Android API](https://img.shields.io/badge/API-21%2B-green)](https://developer.android.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Interactive plan maker Android app for quick sketching and professional presentation, Floorplanner for 3D generation.
+
+---
+
+## Table of Contents
+
+* [Features](#Features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Benefits](#benefits)
+* [System Requirements](#system requirements)
+* [Consent](#concession)
+* [License](#license)
+
+---
+
+## Features
+
+* **Wall Drawing**: 10 cm and 30 cm thick walls aligned to grid.
+* **Window & Door**: Easy size adjustment and snapping to wall.
+* **Edit Mode**: Move, resize, delete by touch.
+* **Zoom & Pan**: Two-finger pinch-zoom and drag.
+* **Save & Load**: Automatic session saving.
+* **Export**: JPEG and Floorplanner-compatible FML format.
+
+---
+
+## Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/cityba/gyorstervezo.git
+cd REPO
+```
+2. Install the apk:
+
+```bash
+adb install -r app-debug.apk
+```
+
+---
+
+## Usage
+
+1. **Select tool**: Main wall or partition button.
+2. **Draw**: Start by touching, drag your finger to the end point.
+3. **Edit**: Turn on the edit mode, touch the element, you can resize, discard.
+4. **Export**: Export button → JPEG or FML → save to Pictures/Documents folder.
+
+---
+
+## Benefits
+
+* **Rapid prototype**: Ready sketch in minutes.
+* **Professional Export**: Image and FML format.
+* **Offline**: Can be used without internet.
+* **Simple UI**: User-friendly, minimal learning curve.
+
+---
+
+## System Requirements
+
+* Android 5.0 (API 21) or later
+* Unknown sources allowed
+
+---
+
+## Contributions
+
+1. Fork the repo 🚀
+2. Create a branch: `git checkout -b feature/uj-feature`
+3. Commit: `git commit -m "New feature added"`
+4. Push & Pull Request
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. Details in the [LICENSE](LICENSE) file.
