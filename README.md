@@ -85,10 +85,7 @@ Interaktív terv készítő Android alkalmazás gyors vázlatkészítéshez és 
 Ez a projekt **MIT License** alatt áll. Részletek a [LICENSE](LICENSE) fájlban.
 
 # PlannerApp
-
-[![Android API](https://img.shields.io/badge/API-21%2B-green)](https://developer.android.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
+ 
 Interactive plan maker Android app for quick sketching and professional presentation, Floorplanner for 3D generation.
 
 ---
