@@ -3,7 +3,7 @@
 [![Android API](https://img.shields.io/badge/API-21%2B-green)](https://developer.android.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Interaktív padlóterveket készítő Android alkalmazás gyors vázlatkészítéshez és szakmai előterjesztéshez.
+Interaktív terv készítő Android alkalmazás gyors vázlatkészítéshez és szakmai előterjesztéshez, Floorplanner 3D generáláshoz.
 
 ---
 
